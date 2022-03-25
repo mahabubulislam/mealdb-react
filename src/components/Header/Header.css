@@ -1,0 +1,20 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#1C2B35;
+    padding-left: 130px;
+    padding-right: 130px;
+    height: 80px;
+}
+nav h4{
+    color: white;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+}
+.menu a:hover{
+    color:orangered
+}

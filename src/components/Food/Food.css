@@ -1,0 +1,22 @@
+.food{
+    border: 2px solid crimson;
+    border-radius: 20px;
+    padding: 10px;
+}
+.food img{
+    width: 200px;
+    border-radius: 30px;
+    padding: 15px;
+    transition: transfor 2s;
+}
+
+.btn-cart{
+    width: 100%;
+    border: 2px solid crimson;
+    border-radius: 20px;
+    padding: 10px;
+}
+.btn-cart:hover{
+    background-color: crimson;
+    color: white;
+}
