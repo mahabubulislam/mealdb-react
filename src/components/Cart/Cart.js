@@ -8,9 +8,10 @@ const Cart = ({foods}) => {
             <p>Selected Items:{foods.length}</p>
             {
                 foods?.map(food=> 
-                    <ul>
-                        <li>{food.strMeal}</li>
-                    </ul>
+                    <div className='cart-info'>
+                        <p>{food.strMeal}</p>
+                        <img src={food.strMealThumb} alt="" />
+                    </div>
                     )
             }
             
